@@ -2,7 +2,6 @@
 #include <cmath>
 #include <Windows.h>
 
-// Функция для вычисления f(x)
 double f(double x) {
     return (1 + pow(x, 2) + pow(x, 4) + pow(x, 6)) / (1 + pow(x, 3) + pow(x, 5) + pow(x, 7));
 }
